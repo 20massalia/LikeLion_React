@@ -3,23 +3,25 @@ import styled from "styled-components";
 import Button from "./Button";
 
 const Wrapper = styled.div`
-z-index: 2;
-  position: fixed;
-  top: 0;
-  padding: 20px;
-  width: calc(100% - 32px);
-  font-family: 'Pacifico', cursive;
-  font-size: 3.5rem;
-  background-image: linear-gradient(to right, #A9F5F2, #ACFA58, #F2F5A9);
-  height: 90px; 
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    padding: 20px;
+    width: calc(100% - 32px);
+    font-family: 'Pacifico', cursive;
+    font-size: 3.5rem;
+    background-image: linear-gradient(to right, #A9F5F2, #ACFA58, #F2F5A9);
+    height: 90px; 
 `;
 
 const Title = styled.div`
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+    color: #0A2A12;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: bold;
 `;
 
 function Header(props) {

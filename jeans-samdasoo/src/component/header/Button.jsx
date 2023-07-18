@@ -7,7 +7,7 @@ const Wrapper = styled.div`
     left: 90%;
     font-family: 'Pacifico', cursive;
     font-size: 1.25rem;
-    color: black;
+    color: #0A2A12;
     cursor: pointer;
     text-align: right;
 `;

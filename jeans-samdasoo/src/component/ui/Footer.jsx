@@ -10,12 +10,13 @@ const Wrapper = styled.div`
     background-color: #f1f1f1;
     font-size: 1.25rem;
     font-weight: bold;
+    font-family: 'SUITE-Regular';
 `;
 
 function Footer(props) {
     return (
         <Wrapper>
-            <p>&copy;2023.Jean.LikeLion</p>
+            <p>&copy;2023 Jean.LikeLion</p>
         </Wrapper>
     );
 }
